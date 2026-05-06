@@ -1,5 +1,4 @@
-# FILE-HANDLING-UTILITY
-
+#CODTECH IT SOLUTIONS-INTERNSHIP
 *COMPANY*:CODTECH IT SOLUTIONS
 
 *NAME*: K SAIPRIYA
@@ -11,6 +10,9 @@
 *DURATION*: 8 WEEKS
 
 *MENTOR*: VAISHALI
+
+##TASK 1:File Handling Utility
+
 
 A simple program to demonstrate basic file operations such as writing, reading, and modifying text files using Java. File handling  allows data to be stored permanently and retrieved when needed.
 In this program, the user interacts with the system through the console by providing input data. The program first performs the write operation, where the user enters text that is stored in a file using the FileWriter class. If the file does not exist, it is automatically created; if it already exists, the previous content is overwritten.
