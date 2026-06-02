@@ -39,5 +39,7 @@ Handshake: The client connects; the server asks for a username.
 Notification: The server alerts all existing users that a new member has joined.
 Messaging: When User A sends a message, the Server receives it and loops through its list of active ClientHandlers, sending that message to User B, C, and D.
 Termination: If a user types /quit or closes the app, the server catches the exception, removes that user from the active list, and notifies others of their departure.
-Conclusion:
+
+
+#Conclusion:
 This application demonstrates the power of Java's Network API and Concurrency models. By combining sockets for data transfer and multithreading for simultaneous processing, the application achieves a seamless, real-time communication environment that is both robust and scalable.
